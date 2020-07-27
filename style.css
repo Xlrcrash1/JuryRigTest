@@ -1,5 +1,12 @@
-/*Style Sheet*/
+/*Style Shstyle*/
 
-.nav-item{
+.jumbotron{
 
+    height: 50px;
+    border-radius: 0;
+}
+
+.dropdown-menu{
+
+    background-color: #e9ecef;
 }
