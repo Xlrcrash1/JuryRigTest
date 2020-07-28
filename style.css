@@ -2,11 +2,16 @@
 
 .jumbotron{
 
-    height: 50px;
+    height: 10%;
     border-radius: 0;
 }
 
 .dropdown-menu{
 
     background-color: #e9ecef;
+}
+
+.navbar{
+
+    padding-top: 0;
 }
