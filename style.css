@@ -4,13 +4,18 @@
 
     width: 100%;
     height: 10%;
-    padding: 20px;
+    padding: 1.8%;
     background-color: #eee
 }
 
 .media{
 
     padding-top: 10px;
+}
+
+.media-body{
+
+    text-align: center;
 }
 
 .dropdown-menu{
@@ -23,11 +28,6 @@
     padding-top: 0;
 }
 
-.navbar-toggler-icon{
-
-    background-color: black;
-}
-
 .nav-link{
 
     color: black;
@@ -38,3 +38,6 @@
     color: blue;
 }
 
+@media (max-width: 817px) {
+}
+  
