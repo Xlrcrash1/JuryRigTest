@@ -38,7 +38,7 @@
     color: blue;
 }
 
-@media (max-width: 817px) {
+@media (max-width: 800px) {
 
     .navbar-toggler-icon{
 
