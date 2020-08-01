@@ -60,6 +60,8 @@
     .navbar-nav{
 
         background-color:#eee;
+        border-radius: 10px;
+        margin: 10px;
     }
 
     .line{
