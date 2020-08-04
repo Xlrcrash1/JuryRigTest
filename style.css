@@ -61,7 +61,21 @@
 
         background-color:#eee;
         border-radius: 10px;
-        margin-top: 10px;
+        float: none;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 15px;
+    }
+
+    .nav-link{
+
+        position: center;
+        text-align: center;
+    }
+
+    .dropdown-item{
+
+        text-align: center;
     }
 
     .line{
