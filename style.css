@@ -73,9 +73,15 @@
         text-align: center;
     }
 
+    .dropdown-menu{
+
+        padding: 0;
+    }
+
     .dropdown-item{
 
         text-align: center;
+        padding: 0;
     }
 
     .line{
