@@ -90,6 +90,7 @@
     .SocialMediaLogos{
 
         height: 25px;
+        display: flex;
     }
 
     .w3-container{
