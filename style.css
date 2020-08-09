@@ -38,6 +38,10 @@
     color: blue;
 }
 
+
+
+
+
 .footer{
 
     position: fixed;
@@ -189,5 +193,57 @@
 
         height: 50px;
     }
+
+
+
+    .footer-left{
+
+        width: 150px;
+        padding-top: 85px;
+    }
+
+    .footer-copyright{
+
+        font-size: 11px;
+    }
+
+    .footer-allrights{
+
+        font-size: 9px;
+    }
+
+    .footer-middle{
+
+        padding-top: 2px;
+    }
+
+    .footer-contact h3{
+
+        font-size: 23;
+        margin-bottom: 0;
+    }
+
+    .footer-email{
+
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .footer-right{
+
+        padding-top: 60px;
+    }
+
+    .footer-follow h3{
+
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .footer-SocialMediaLogos{
+
+        height: 25px;
+    }
+
 }
   
