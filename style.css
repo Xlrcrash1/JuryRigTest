@@ -51,26 +51,58 @@
 
 .footer-left{
 
-    width: 200px;
+    width: 250px;
     position: fixed;
+    padding-top: 8%;
+}
+
+.footer-copyright{
+
+    font-size: 20px;
+}
+
+.footer-allrights{
+
+    font-size: 10px;
 }
 
 .footer-middle{
 
     position: fixed;
     width: 100%;
+    padding-top: 2.5%;
 }
 
 .footer-contact{
 
     padding-top: 0;
     padding-bottom: 0;
+    font-size: 25px;
     text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.footer-email{
+
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+
+.footer-email .a{
+
+    color: black;
 }
 
 .footer-right{
 
     float: right;
+    padding: 5%;
+    padding-top: 2%;
+}
+
+.footer-follow{
+
+    text-decoration: underline;
 }
 
 
