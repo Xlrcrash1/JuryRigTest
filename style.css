@@ -45,7 +45,11 @@
     
     position: relative;
 }
+.JuryRigText{
 
+    color: orange;
+    position: absolute;
+}
 
 
 
