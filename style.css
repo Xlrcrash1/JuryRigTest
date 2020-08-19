@@ -45,11 +45,11 @@
     
     position: relative;
 }
-.JuryRigText{
+.Greeting-Pic{
 
-    color: orange;
     position: absolute;
 }
+
 
 
 
@@ -86,7 +86,7 @@
 
 .footer-middle{
 
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding-top: 25px;
 }
