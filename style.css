@@ -1,5 +1,7 @@
 /*Style Shstyle*/
 
+/*Navigation*/
+
 .w3-container{
 
     width: 100%;
@@ -46,10 +48,35 @@
     position: relative;
 }
 
+/*Index*/
+
+.Greeting-Pic{
+
+    position: absolute;
+}
+.JuryRigText{
+
+    position: absolute;
+    font-family: ARDarling;
+    float: right;
+    padding-top: 200px;
+    padding-left: 700px;
+    font-size: 150px;
+    /*color: white;*/
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color: white;
+}
+
+@font-face {
+    font-family: ARDarling;
+    src: url(ar-darling.ttf);
+  }
 
 
 
 
+/*Footer*/
 
 .footer{
 
