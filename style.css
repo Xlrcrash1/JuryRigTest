@@ -52,12 +52,12 @@
 
 /*Index*/
 
-.Greeting-Pic{
+/*.Greeting-Pic{
     
     position: fixed;
     z-index: 0;
-}
-.parallax {
+}*/
+.Greeting-Pic{
     /* The image used */
     background-image: url("images/Tony.jpeg");
   
