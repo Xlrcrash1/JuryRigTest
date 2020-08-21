@@ -58,11 +58,12 @@
     z-index: 0;
 }*/
 .Greeting-Pic{
+
     /* The image used */
     background-image: url("images/Tony.jpeg");
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 580px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
