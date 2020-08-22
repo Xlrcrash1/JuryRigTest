@@ -117,6 +117,7 @@
     width: 250px;
     position: absolute;
     padding-top: 70px;
+    z-index: 0;
 }
 
 .footer-copyright{
@@ -135,6 +136,7 @@
     position: fixed;
     width: 100%;
     padding-top: 25px;
+    z-index: 1;
 }
 
 .footer-contact{
@@ -167,6 +169,7 @@
     float: right;
     padding: 5%;
     padding-top: 10px;
+    z-index: 2;
 }
 
 .footer-follow{
