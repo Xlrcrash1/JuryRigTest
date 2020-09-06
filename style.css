@@ -124,7 +124,7 @@
 
 .Footer{
 
-    position: fixed;
+    position: inherit;
     bottom:0;
 }
 .footer{
