@@ -52,6 +52,13 @@
 
 /*Index*/
 
+/*Content*/
+
+.Content{
+
+    height: 100%;
+}
+
 /*.Greeting-Pic{
     
     position: fixed;
