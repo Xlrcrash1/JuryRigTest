@@ -70,7 +70,7 @@
     background-image: url("images/Tony.jpeg");
   
     /* Set a specific height */
-    min-height: 580px; 
+    min-height: 680px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -99,7 +99,7 @@
     align-content: center;
     background-color: black;
     /*background-image: url("images/mask.jpg");*/
-    height: 300px;
+    height: 180px;
     width: auto;
     color: white;    
 }
@@ -107,7 +107,7 @@
 .CovidUpdate{
 
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 2%;
     font-family: ARDarling;
 }
 
