@@ -70,7 +70,7 @@
     background-image: url("images/Tony.jpeg");
   
     /* Set a specific height */
-    min-height: 680px; 
+    min-height: 685px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
