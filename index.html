@@ -1,66 +1,139 @@
 <!doctype = HTML>
-
-    <html lang = 'en'>
+<html lang = 'en'>
     
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link type="text/css" rel="stylesheet" href='style.css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href='style.css'>
         
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-        <head>
+  <head>
 
-            <title>JuryRig Studios</title>
-        </head>
+    <title>JuryRig Studios</title>
+  </head>
 
-        <body>
-            <div id="Navigation"></div>
+  <body>
+    
+    <div id="Navigation"></div>
 
-            <div class = "Content">
+    <div class = "Content">
 
-                <div id = "Greeting">
+      <div id = "Greeting">
                 
-                    <div class = "JuryRigText">
+        <div class = "JuryRigText">
 
-                        <p>JuryRig Studios</p>
-                    </div>
+          <p>JuryRig Studios</p>
+        </div>
 
-                    <div class = "Greeting-Pic"></div>
-                </div>
+        <div class = "Greeting-Pic"></div>
+      </div>
 
-                <div class = "Covid">
+      <div class = "Covid">
                 
-                    <div class = "CovidUpdate">
+        <div class = "CovidUpdate">
                     
-                        <h3>COVID-19 UPDATE</h3>
-                    </div>
-                    <div class = "CovidStatement">
+          <h3>COVID-19 UPDATE</h3>
+        </div>
+
+        <div class = "CovidStatement">
                     
-                        <p>During these unprecedented times, I'm committed to ensuring both your and my safety.</p>
-                        <p>When shooting your event, facemasks and social distancing will be respected when possible and appropriate.</p>
-                    </div>
-                </div>            
+          <p>During these unprecedented times, I'm committed to ensuring both your and my safety.</p>
+          <p>When shooting your event, facemasks and social distancing will be respected when possible and appropriate.</p>
+        </div>
+      </div>
+
+      <div class = "PhotographyCarousel">
+
+        <div class = "PhotographyCarouselDes">
+
+          <h3>Photography</h3>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./Images/Photography/Photo1.jpg" alt="Los Angeles" style="height: 300px;">
+            </div>
+      
+            <div class="item">
+              <img src="./Images/Photography/Photo2.jpg" alt="Chicago" style="height: 300px;">
+            </div>
+          
+            <div class="item">
+              <img src="./Images/Photography/Photo3.jpg" alt="New york" style="height: 300px;">
             </div>
 
+            <div class="item">
+              <img src="./Images/Photography/Photo6.jpg" alt="Detroit" style="height: 300px">
+            </div>
+
+            <div class="item">
+              <img src="./Images/Photography/Photo8.jpg" alt="Shafter" style="height: 300px">
+            </div>
+
+            <div class="item">
+              <img src="./Images/Photography/Photo10.jpg" alt="Bakersfield" style="height: 300px">
+            </div>
+
+            <div class="item">
+              <img src="./Images/Photography/Photo11.jpg" alt="Delano" style="height: 300px">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>    
+
+              
+
 
             
 
             
 
 
-            <div id="Footer"></div>
+    <div id="Footer"></div>
 
 
-            <script>
-                $(function(){
-                  $("#Navigation").load("nav.html");
-                });
-            </script>
+    <script>
+      
+      $(function(){
+                  
+        $("#Navigation").load("nav.html");
+      });
+    </script>
 
-            <script>
-                $(function(){
-                  $("#Footer").load("footer.html");
-                });
-            </script> 
-        </body>
+    <script>
 
-    </html>
+      $(function(){
+
+        $("#Footer").load("footer.html");
+      });
+    </script> 
+  </body>
+</html>
