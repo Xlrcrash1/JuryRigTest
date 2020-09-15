@@ -30,6 +30,11 @@
     padding-top: 0;
 }
 
+.navbar-nav{
+
+    font-size: 15px;
+}
+
 .nav-link{
 
     color: black;
@@ -114,6 +119,11 @@
 .CovidUpdate h3{
 
     font-size: 55px;
+}
+
+.CovidStatement{
+
+    font-size: 12px;
 }
 
 .PhotographyCarousel{
