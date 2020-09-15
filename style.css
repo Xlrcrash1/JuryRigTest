@@ -119,13 +119,18 @@
 .PhotographyCarousel{
 
     height: auto;
-    /*background-color: black;*/
+    background-color: lightgray;
 }
 
 .PhotographyCarouselDesc{
 
     padding: 0;
     position: absolute;
+}
+
+.PhotographyCarouselDesc h3{
+
+    size: 30px;
 }
 
 .carousel-inner > .item > img {
