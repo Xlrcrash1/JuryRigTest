@@ -217,10 +217,10 @@
     letter-spacing: 2px;
 }
 
-.footer-contact .h3{
+/*.footer-contact .h3{
 
-    size: 15px;
-}
+    font-size: 25px;
+}*/
 
 .footer-email{
 
@@ -248,6 +248,7 @@
 
 .footer-follow{
 
+    font-size: 25px;
     text-decoration: underline;
     letter-spacing: 1px;
 }
