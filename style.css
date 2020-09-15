@@ -129,10 +129,10 @@
     position: absolute;
 }
 
-/*.PhotographyCarouselDesc h3{
+.PhotographyCarouselDesc h3{
 
     font-size: 30px;
-}*/
+}
 
 .carousel-inner > .item > img {
     margin: 0 auto;
