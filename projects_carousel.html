@@ -6,13 +6,13 @@
                 <div class="carousel-item active">
                     <img width="900" height="1200" class="d-block col-3 img-fluid" src="./Images/Projects/JuryRig-Studios-Lens-Logo---White-Background.png">
                 </div>
-                <div class="carousel-item">
+                <div class="project-carousel-item">
                     <img class="d-block col-3 img-fluid" src="./Images/Projects/BadNusz_Trucking_Black_4K.png">
                 </div>
-                <div class="carousel-item">
+                <div class="project-carousel-item">
                     <img class="d-block col-3 img-fluid" src="./Images/Projects/BadNusz_Trucking_White_4K.png">
                 </div>
-                <div class="carousel-item">
+                <div class="projects-carousel-item">
                     <img class="d-block col-3 img-fluid" src="./Images/Projects/BakersfieldAllianceSC.mov" alt="Video">
                 </div>
             </div>
@@ -38,7 +38,7 @@ $('#ProjectsCarousel').carousel({
   interval :2000
 })
 
-$('.carousel .carousel-item').each(function(){
+$('.carousel .project-carousel-item').each(function(){
     var next = $(this).next();
     if (!next.length) {
     next = $(this).siblings(':first');
