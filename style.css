@@ -208,11 +208,12 @@
 .QuickViewTitle{
 
     font-family: 'ARDarling';
+    padding-bottom: 15px;
 }
 
 .QuickViewTitle h2{
 
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .index_cards{
