@@ -189,14 +189,16 @@
 .CommitmentStatement{
     
     text-align: center;
-    padding: 2%;
+    padding: 15px;
     background-color: black;
     color: white;
 }
 
 .CommitmentHeader .h2{
 
-    font-size: 25px;    
+    font-size: 45px;
+    font-family: 'ARDarling';
+    padding: 10px;    
 }
 
 .CommitmentText{
