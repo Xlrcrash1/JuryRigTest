@@ -194,7 +194,15 @@
     color: white;
 }
 
+.CommitmentHeader .h2{
 
+    font-size: 25px;    
+}
+
+.CommitmentText{
+
+    font-size: 12px;
+}
 
 /*----------Photography CSS---------*/
 
