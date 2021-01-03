@@ -1,6 +1,7 @@
 /*Style Shstyle*/
 
 
+/*---------------Carousels-------------*/
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
@@ -24,27 +25,6 @@
   
 }
 
-.carousel-inner .project-carousel-item.active,
-.carousel-inner .project-carousel-item-next,
-.carousel-inner .project-carousel-item-prev {
-  display: flex;
-}
-
-.carousel-inner .project-carousel-item-right.active,
-.carousel-inner .project-carousel-item-next {
-  transform: translateX(25%);
-}
-
-.carousel-inner .project-carousel-item-left.active, 
-.carousel-inner .project-carousel-item-prev {
-  transform: translateX(-25%);
-}
-  
-.carousel-inner .project-carousel-item-right,
-.carousel-inner .project-carousel-item-left{ 
-  transform: translateX(0);
-  
-}
 
 /*Navigation*/
 
@@ -205,6 +185,17 @@
     font-family: ARDarling;
     src: url(ar-darling.ttf);
 }
+
+.CommitmentStatement{
+    
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    color: white;
+}
+
+
+
 /*----------Photography CSS---------*/
 
 
