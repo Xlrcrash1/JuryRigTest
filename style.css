@@ -204,16 +204,30 @@
     height: 300px;
     text-align: center;
 }
+
+.QuickViewTitle{
+
+    font-family: 'ARDarling';
+}
+
+.QuickViewTitle h2{
+
+    font-size: 45px;
+}
+
 .index_cards{
 
     width: auto;
     display: inline-block;
     padding: 10px;
 }
+
 .index_img{
 
     width: 250px;
 }
+
+
 /*-----------About Us ----------------*/
 .CommitmentStatement{
     
