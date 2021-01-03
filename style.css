@@ -208,6 +208,10 @@
     width: 25%;
     display: inline-block;
 }
+.index_img{
+
+    width: 200px;
+}
 /*-----------About Us ----------------*/
 .CommitmentStatement{
     
