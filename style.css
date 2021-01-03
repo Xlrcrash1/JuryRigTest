@@ -198,6 +198,13 @@
     src: url(ar-darling.ttf);
 }
 
+.TEST{
+
+    width: 100%;
+    height: 300px;
+}
+
+/*-----------About Us ----------------*/
 .CommitmentStatement{
     
     text-align: center;
