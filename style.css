@@ -6,7 +6,12 @@
 .CarouselTitle{
 
     font-family: 'ARDarling';
+}
+
+.CarouselTitle h2{
+
     font-size: 35px;
+
 }
 
 .carousel-inner .carousel-item.active,
