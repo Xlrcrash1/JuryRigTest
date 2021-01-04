@@ -239,6 +239,12 @@
 
 .index_vid{
 
+    width: 400px;
+    height: 400px;
+}
+
+.index_vim{
+
     width: 300px;
 }
 
