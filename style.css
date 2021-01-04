@@ -111,6 +111,12 @@
     position: fixed;
     z-index: 0;
 }*/
+
+.html{
+
+    min-height: 100%;
+}
+
 .Greeting-Pic{
 
     /* The image used */
