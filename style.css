@@ -203,6 +203,8 @@
     width: 100%;
     /*height: 400px;*/
     text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 .QuickViewTitle{
