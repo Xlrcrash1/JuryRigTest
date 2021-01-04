@@ -363,7 +363,7 @@
 /*---------------Mobile----------*/
 
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
 
     .navbar-toggler-icon{
 
@@ -390,6 +390,10 @@
         width: auto;
         margin: auto;
         margin-top: 15px;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
+
+        position:none;
     }
 
     .nav-link{
