@@ -237,6 +237,11 @@
     width: 300px;
 }
 
+.index_vid{
+
+    width: 300px;
+}
+
 
 /*-----------About Us ----------------*/
 .CommitmentStatement{
@@ -452,11 +457,6 @@
     .Greeting-Pic{
 
         width: 100%;
-    }
-
-    .iframe{
-
-        width: 400px;
     }
 
     .footer-left{
