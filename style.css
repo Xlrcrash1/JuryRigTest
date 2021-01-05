@@ -456,6 +456,11 @@
         font-size: 100px;
     }
 
+    .Greeting{
+
+        text-align: center;
+    }
+
     .Greeting-Pic{
 
         width: 100%;
