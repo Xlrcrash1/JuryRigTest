@@ -461,6 +461,15 @@
         width: 100%;
     }
 
+    .Covid{
+
+        height: 150px;
+    }
+
+    .CovidUpdate h3{
+
+        font-size: 35px;
+    }
 
     .index_vid{
 
