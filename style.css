@@ -464,6 +464,8 @@
     .Greeting-Pic{
 
         width: 100%;
+        min-height: 520px;
+        text-align: center;
     }
 
     .Covid{
